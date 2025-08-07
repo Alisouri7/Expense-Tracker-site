@@ -298,7 +298,11 @@ thead {
     font-weight: bold;
     color: aliceblue;
 }
-
+#mymodals {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 .modalwrapper {
     display: flex;
     justify-content: center;
