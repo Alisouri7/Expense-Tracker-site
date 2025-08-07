@@ -299,7 +299,9 @@ thead {
     color: aliceblue;
 }
 #mymodals {
-    position: relative;
+    position: absolute;
+    right: 0;
+    left: 0;
     z-index: 10;
 }
 .modalwrapper {
