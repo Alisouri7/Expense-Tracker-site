@@ -203,7 +203,6 @@ window.createModal = function (labelName, categoryName, amountName, date, isInco
             </section>
         </div>
         `);
-
 };
 
 function getAllExpenses() {

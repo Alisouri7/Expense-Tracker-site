@@ -298,12 +298,7 @@ thead {
     font-weight: bold;
     color: aliceblue;
 }
-#mymodals {
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 10;
-}
+
 .modalwrapper {
     display: flex;
     justify-content: center;
@@ -314,12 +309,12 @@ thead {
     background: linear-gradient(0deg, #BDBDBD, #607D8B);
     box-shadow: 0px 0px 75px 40px rgba(0, 0, 0, 0.33);
     border-radius: 35px;
-    position: absolute;
+    position: fixed;
+    top: 0;
     z-index: 9;
     display: block;
     margin: auto;
     animation: modalanimate 100ms linear 1;
-    margin-bottom: 200px;
 }
 
 @keyframes modalanimate {
